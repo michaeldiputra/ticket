@@ -8,8 +8,9 @@ console.log(penjaga[0].nama + ": " + penjaga[0].lari + " km");
 console.log(penjaga[1].nama + ": " + penjaga[1].lari + " km");
 console.log("");
 
+let i;
 // pengulangan jarak lari selama 5 hari
-for (let i = 0; i < 5; i++) {
+for (i = 0; i < 5; i++) {
     console.log("Hari " + (i + 1) + ":");
     for (let j = 0; j < penjaga.length; j++) {
         let namaPenjaga = penjaga[j].nama;
@@ -22,6 +23,6 @@ for (let i = 0; i < 5; i++) {
     console.log("");
 }
 
-console.log("=== TOTAL JARAK SELAMA 5 HARI ===");
+console.log("=== TOTAL JARAK SELAMA", i, "HARI ===");
 console.log(penjaga[0].nama + ":", totalLariPenjaga1, "km");
 console.log(penjaga[1].nama + ":", totalLariPenjaga2, "km");
