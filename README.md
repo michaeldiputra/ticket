@@ -1,6 +1,6 @@
-Nama: Michael Ray Diputra
-NIM: 102022500372
-Learning Path: Back-end Development
+Nama: Michael Ray Diputra <br>
+NIM: 102022500372 <br>
+Learning Path: Back-end Development <br>
 
 ````
 $ node tugasweek1.js
